@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="ss.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body class="flex" id="bg">
+    <div class="container flex">
+        <div class="stopwatch flex">
+            <h1>STOPWATCH</h1>
+            <div class="circle flex">
+                <span class="time" id="display">00:00:00</span>
+            </div>
+        </div>
+        <div class="controls">
+            <button class="buttonplay">
+                <i class="fa-solid fa-play" id="playbutton"></i>
+            </button>
+            <button class="buttonplay">
+                <i class="fa-solid fa-circle-pause" id="pausebutton"></i>
+            </button>
+            <button class="buttonplay">
+                <i class="fa-solid fa-shuffle" id="resetbutton"></i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
